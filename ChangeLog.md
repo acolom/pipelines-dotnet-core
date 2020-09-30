@@ -282,6 +282,16 @@ steps:
 
 En este caso vamos a probar a hacer una rama y cuando este todo listo lo subiremos a la principal, asi evitamos lo ocurrido en el paso anterior en el que hemos realizado unos cuantos commits solo para probar
 
+[Configuracion de la pipeline por ramas](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/ci-build-git?view=azure-devops&tabs=yaml)
+
+azure-pipelines.yml
+```yaml
+trigger:
+- master
+- feature/*
+- nginx
+```
+
 ## Todo list
 
 * ~~Docker Compose~~

@@ -7,6 +7,8 @@
 
 trigger:
 - master
+- feature/*
+- nginx
 
 pool:
   #vmImage: 'ubuntu-latest'
