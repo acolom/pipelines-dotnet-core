@@ -278,6 +278,10 @@ steps:
     publishLocation: 'Container'
 ```
 
+## Agregar nginx
+
+En este caso vamos a probar a hacer una rama y cuando este todo listo lo subiremos a la principal, asi evitamos lo ocurrido en el paso anterior en el que hemos realizado unos cuantos commits solo para probar
+
 ## Todo list
 
 * ~~Docker Compose~~
