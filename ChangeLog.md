@@ -299,11 +299,18 @@ trigger:
 - nginx
 ```
 
+[Post](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-3.1)
+
+La configurcion de nginx se me escapa bastante de ls manos de momento, por lo que mejor lo dejamos para otra ocasion
+
 ## Todo list
 
 * ~~Docker Compose~~
+* [Monitoring nginx with Amplify](https://hub.docker.com/_/nginx)
 * Configuraciones de variables por entorno
 * Test Coverage y testing integrado en azure
+
+
 
 ## Otros enlaces para continuar despues
 
