@@ -284,7 +284,14 @@ En este caso vamos a probar a hacer una rama y cuando este todo listo lo subirem
 
 [Configuracion de la pipeline por ramas](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/ci-build-git?view=azure-devops&tabs=yaml)
 
+Tambien modificamos el release de azure para que no suba los cambios a produccion
+
+Aqui entiendo que lo que deberiamos tener son dos ramas Produccion y PreProduccion, cada uno con su release e ir haciendo commits de las feature branches a preproduccion y  produccion
+
+A parte cada release de azure pipelines se puede configurar por filtros para mover unicamente si el build se a producido por una rama en concreto
+
 azure-pipelines.yml
+
 ```yaml
 trigger:
 - master
