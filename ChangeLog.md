@@ -303,14 +303,20 @@ trigger:
 
 La configurcion de nginx se me escapa bastante de ls manos de momento, por lo que mejor lo dejamos para otra ocasion
 
+## Intento de agregar Logging with ElasticSearch, Kibana, ASP.NET Core and Docker
+
+Siguiendo este [post](https://www.humankode.com/asp-net-core/logging-with-elasticsearch-kibana-asp-net-core-and-docker) que tiene buena pinta
+
+Una vez agregado modificado el docker compose agregando la configuracion para kibana y elasticsearch y restaurado tanto elastic search como kibana se lanzan correctamente
+
+Copiamos la configuracion a dockercomposeazure.yml
+
 ## Todo list
 
 * ~~Docker Compose~~
 * [Monitoring nginx with Amplify](https://hub.docker.com/_/nginx)
 * Configuraciones de variables por entorno
 * Test Coverage y testing integrado en azure
-
-
 
 ## Otros enlaces para continuar despues
 
