@@ -8,6 +8,7 @@
 trigger:
 - master
 - feature/*
+- feature-*
 - nginx
 
 pool:
