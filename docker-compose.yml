@@ -9,6 +9,8 @@ services:
     build: .
     ports:
       - "80:80"
+    networks:
+      - elastic
   redis:
     image: "redis:alpine"
   elasticsearch:
@@ -33,6 +35,6 @@ services:
     depends_on:
       - elasticsearch
     environment:
-      - ELASTICSEARCH_URL=http://localhost:9200
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
     networks:
       - elastic
